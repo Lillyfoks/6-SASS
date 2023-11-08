@@ -1,0 +1,266 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #f2c84b;
+  color: #2F3640;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header h1 {
+  font-family: "Inconsolata", monospace;
+  margin-left: 2%;
+  margin-right: 40%;
+  font-size: 2em;
+}
+header nav {
+  color: #2F3640;
+  font-family: "Roboto Mono", monospace;
+}
+header nav a {
+  text-decoration: none;
+  color: #2F3640;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.films .affiche {
+  float: right;
+}
+.films .affiche .photofilm {
+  border: 5px solid #F2C84B;
+  margin: 60px 20px 0 20px;
+  width: 300px;
+}
+.films .infos > p {
+  padding: 0 20px;
+}
+.films hr {
+  clear: both;
+}
+.films p {
+  width: 100%;
+  padding: 20px 20px;
+}
+.films .titre {
+  font-size: 38px;
+  margin: 0;
+  padding-top: 1em;
+}
+.films .blocinfo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.présentation p {
+  text-align: justify;
+  margin: 0;
+}
+
+hr {
+  border: 2px solid #F2C84B;
+}
+
+main {
+  background-color: #2F3640;
+  color: #F2C84B;
+  width: 100%;
+  min-height: 100vh;
+}
+main .logo {
+  background-color: #fff;
+  width: 200px;
+  padding: 20px;
+  border-radius: 20%;
+  margin-top: 60px;
+}
+main h2,
+main h3,
+main p {
+  width: 90%;
+  text-align: center;
+  margin: 30px;
+}
+main .galerie {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+main .img-galery {
+  width: 300px;
+  height: 460px;
+  border: 5px solid #F2C84B;
+  margin: 5px;
+}
+main .titre-form {
+  padding-top: 100px;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  font-size: 30px;
+}
+main form .identité {
+  display: flex;
+  flex-direction: column;
+}
+main form .contenu {
+  display: flex;
+  flex-direction: row;
+}
+main form #nom,
+main form #prénom,
+main form #message {
+  margin: 30px;
+  padding: 20px;
+}
+main form .question {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 30px;
+}
+main form .question input {
+  margin: 20px;
+}
+main form .btn {
+  background-color: #F2C84B;
+  color: #2F3640;
+  margin-top: 100px;
+  font-size: 30px;
+  padding: 0.3em;
+  margin: 20px;
+  width: fit-content;
+  margin-left: 400px;
+}
+
+footer {
+  background-color: #F2C84B;
+  color: #2F3640;
+  height: 50px;
+  width: 100%;
+}
+footer p {
+  margin-top: 0px;
+  padding-top: 16px;
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  header h1 {
+    font-size: 20px;
+    min-width: fit-content;
+  }
+  header nav {
+    position: absolute;
+    right: 150px !important;
+    top: 0 !important;
+  }
+  header nav a {
+    color: #2F3640 !important;
+    font-size: 16px !important;
+  }
+  main h2,
+  main h3,
+  main p {
+    margin: 15px;
+    padding: 20px;
+  }
+  main .img-galery {
+    height: 400px;
+  }
+  .films {
+    display: flex;
+    flex-direction: column;
+  }
+  .films .affiche {
+    text-align: center;
+  }
+  .films .photofilm {
+    width: 200px;
+    height: 400px;
+  }
+  .texte {
+    display: flex;
+    flex-direction: column;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    padding-top: 20px !important;
+    font-size: 30px;
+  }
+  form .identité {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+  form .contenu {
+    display: flex;
+    flex-direction: column !important;
+  }
+  form #nom,
+  form #prénom,
+  form #message {
+    margin: 15px !important;
+    padding: 20px;
+  }
+  form .question {
+    margin-top: 30px;
+    margin-right: 70px !important;
+  }
+  form .question input {
+    margin: 0 !important;
+  }
+  form .btn {
+    margin-right: 300px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .films .blocinfo {
+    flex-direction: column;
+  }
+  header h1 {
+    font-size: 24px;
+    min-width: fit-content;
+  }
+  header nav {
+    position: absolute;
+    min-width: fit-content;
+    right: 160px;
+    top: 40px;
+  }
+  header a {
+    color: #F2C84B !important;
+  }
+  .titre-form {
+    padding-top: 100px;
+  }
+  form {
+    width: 100%;
+  }
+  form #nom,
+  form #prénom,
+  form #message {
+    width: 320px;
+  }
+  form .question {
+    margin-left: 40px !important;
+  }
+  form .btn {
+    margin-left: 330px !important;
+  }
+}/*# sourceMappingURL=style.css.map */

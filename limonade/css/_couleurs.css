@@ -1,0 +1,43 @@
+header {
+  background-color: #444;
+  color: #fff;
+}
+header h1 {
+  color: #ff4;
+}
+
+nav {
+  background-color: #444;
+}
+nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.copyright {
+  background-color: #444;
+  color: #ff4;
+}
+
+body {
+  background-color: #eee;
+}
+body .limonade,
+body .production,
+body .contact {
+  color: #fff;
+}
+body .contact #email,
+body .contact #message {
+  opacity: 0.8;
+}
+
+.btn-submit {
+  background-color: #ff4;
+}
+
+.more {
+  background-color: #222;
+  color: #fff;
+  padding: 1%;
+}/*# sourceMappingURL=_couleurs.css.map */

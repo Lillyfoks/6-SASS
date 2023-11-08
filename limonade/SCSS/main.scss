@@ -1,0 +1,88 @@
+@import "typo";
+@import "couleurs";
+@import "mixins";
+
+* {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+}
+
+aside {
+    width: 15%;
+}
+nav {
+    height: 100%;
+
+    li {
+        border-bottom: 2px solid #ff0;
+        padding : 5%;
+    }
+}
+
+.produits {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .produits .product {
+    display: flex;
+    flex-direction: row;
+ }
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+main {
+    width: 100%;
+    margin-left: 0;
+}
+
+    .limonade {
+        background-image: url(../images/bg-presentation.jpg);
+        background-size: contain;
+        padding: 5%;
+        height: 500px;
+    }
+    .production {
+        background-image: url(../images/bg-production.jpg);
+        background-size: contain;
+        padding: 5%;
+
+        h1 {
+            text-align: end;
+        }
+
+        p {
+            text-align: end;
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+
+    .produits figure,
+    .client figure {
+        background-color: #fff;
+        margin: 1%;
+        text-align: center;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../images/bg-contact.jpg);
+        background-size: contain;
+        padding: 5%;
+
+        p {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }

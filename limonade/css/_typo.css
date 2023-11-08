@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, figcaption h2, .copyright, .btn-submit, .more {
+  font-family: "Grand Hotel", sans-serif;
+  font-size: 18pt;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}/*# sourceMappingURL=_typo.css.map */

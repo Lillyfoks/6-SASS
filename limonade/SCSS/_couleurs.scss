@@ -1,0 +1,48 @@
+header {
+    background-color: #444;
+    color: #fff;
+
+    h1 {
+        color: #ff4;
+    }
+}
+
+nav {
+    background-color: #444;
+    li a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+
+.copyright {
+    background-color: #444;
+    color: #ff4;
+}
+
+
+body {
+    background-color: #eee;
+
+    .limonade,
+    .production,
+    .contact {
+        color: #fff;
+    }
+
+    .contact #email,
+    .contact #message {
+        opacity: 0.8;
+    }
+}
+
+.btn-submit {
+    background-color: #ff4;
+}
+
+.more {
+    background-color: #222 ;
+    color: #fff;
+    padding: 1%;
+}

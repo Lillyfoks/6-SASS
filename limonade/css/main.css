@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, figcaption h2, .copyright, .btn-submit, .more {
+  font-family: "Grand Hotel", sans-serif;
+  font-size: 18pt;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #444;
+  color: #fff;
+}
+header h1 {
+  color: #ff4;
+}
+
+nav {
+  background-color: #444;
+}
+nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.copyright {
+  background-color: #444;
+  color: #ff4;
+}
+
+body {
+  background-color: #eee;
+}
+body .limonade,
+body .production,
+body .contact {
+  color: #fff;
+}
+body .contact #email,
+body .contact #message {
+  opacity: 0.8;
+}
+
+.btn-submit {
+  background-color: #ff4;
+}
+
+.more {
+  background-color: #222;
+  color: #fff;
+  padding: 1%;
+}
+
+* {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+}
+
+aside {
+  width: 15%;
+}
+
+nav {
+  height: 100%;
+}
+nav li {
+  border-bottom: 2px solid #ff0;
+  padding: 5%;
+}
+
+.produits {
+  display: flex;
+  flex-direction: column;
+}
+
+.produits .product {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  width: 100%;
+  margin-left: 0;
+}
+
+.limonade {
+  background-image: url(../images/bg-presentation.jpg);
+  background-size: contain;
+  padding: 5%;
+  height: 500px;
+}
+
+.production {
+  background-image: url(../images/bg-production.jpg);
+  background-size: contain;
+  padding: 5%;
+}
+.production h1 {
+  text-align: end;
+}
+.production p {
+  text-align: end;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.produits figure,
+.client figure {
+  background-color: #fff;
+  margin: 1%;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/bg-contact.jpg);
+  background-size: contain;
+  padding: 5%;
+}
+.contact p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}/*# sourceMappingURL=main.css.map */
